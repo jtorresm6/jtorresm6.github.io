@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<label></label>
+<head> 
+
+<script></script>
+
+	<title>Inicio | Jose Torres </title>
+</head>
+	<h1>HOLA MUNDO</h1>
+	<h2><u>Mariano Galvez de Guatemala</u> </h2>
+
+
+<body>
+<script>
+
+	<h1>HOLA MUNDO</h1>
+	<h2><u>Mariano Galvez de Guatemala</u> </h2>
+	console.log("HOLA MUNDO");
+</script>
+
+<img src="messi.JPEG">
+</body>
+</html>
