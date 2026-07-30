@@ -1,0 +1,101 @@
+:root{
+    --bg-primary: #e4a4a477;
+    --ft-primmary: clamp(18px, 8vw, 36px);
+}
+
+
+*{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+
+}
+
+header{
+    height: 60px;
+    
+
+}
+main{
+Position: relative;
+    background-color: var(--bg-primary);
+    height: calc(120vh - 10vh);
+    max-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+
+}
+.info{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 16px;
+}
+.info .welcome{
+
+    color: #800a1e;
+    width: fit-content;
+        font-size: 2vw;
+}
+.info h1{
+    font-size: 5vw;
+}
+.info h1 span{
+    display: block;
+    color: palevioletred;
+}
+.info .tag-role{
+    background-color: palevioletred;
+    color: rgb(128, 10, 30);
+    width: fit-content;
+    padding: 6px 10px;
+    border-radius: 16px;
+}
+.info .quote{
+    font-size: 2vw;
+  
+}
+.info button{
+        border-radius: 16px;
+    background: #080a1e;
+    color: #fff;
+    padding: 6PX 10PX;
+   width: fit-content;
+   font-size: 20px;
+    
+}
+.imagen{
+
+    width: 50%;
+}
+.blurPoint{
+        position: absolute;
+        top: 25%;
+        right: calc(50% +25%);
+        background-color: #800a1e;
+        width: 50px;
+    height: 60px;   
+    z-index: 100; 
+    filter: blur(50px);
+}
+
+main:after{
+        position: absolute;
+        top: 5%;
+        right: 0%;
+        left: 25%;
+        background-color: #800a1e;
+        width: 120px;
+        height: 60px;   
+        z-index: 100; 
+        filter: blur(100px);
+        z-index: -1;
+}
