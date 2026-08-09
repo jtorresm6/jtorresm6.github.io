@@ -1,0 +1,127 @@
+
+.imagenFondo{
+    background-image: url("./imagenes/ImagenFondo.jpg");
+    min-height: 3000px;
+    margin: 0;
+}
+
+.center1{
+    display: flex;
+    gap: 5em; 
+    padding-left: 70%;
+    font-size: 1.5vw;
+    color: #f1eeee;
+    font-family: 'outfit', sans-serif;
+    font-weight: 900;
+}
+
+
+.center2{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.letts{
+    
+    font-size: 10.5vw;
+    color: #f1eeee;
+    font-family: 'outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0;       
+    line-height: 1;
+    padding-right: 10%;
+}
+.letts1{
+    
+    font-size: 7vw;
+    color: #f1eeee;
+    font-family: 'outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+    margin: 0;       
+    line-height: 1;
+    padding-left: 22%;
+}
+
+.letts2{
+    
+    font-size: 2vw;
+    color: #f1eeee;
+    font-family: 'outfit', sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+}
+
+.Spersonal{
+    margin-top: 15%;
+    background-color: #170e64;
+    min-height: 100vh; 
+    width: 100%;
+    padding-top: 3%;
+}
+
+.letts3{
+    padding-top: 4%;
+    font-size: 5vw;
+    color: #b5ceec;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    padding-left: 55%;
+    margin: 0;
+    line-height: 0.9;
+}
+.letts4{
+    font-size: 5vw;
+    color: #b5ceec;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    padding-left: 55%;
+    margin: 0;
+    line-height: 0.9;
+}
+.letts5{
+    padding-top: 4%;
+    font-size: 1.3vw;
+    color: #b5ceec;
+    font-family: 'outfit', sans-serif;
+    font-weight: 300;
+    letter-spacing: -0.03em;
+    padding-left: 55%;
+    padding-right: 15%;
+    margin: 0;
+    line-height: 1.2;
+}
+.video{
+    width: 550px;           
+    height: 390px;          
+    object-fit: cover;      
+    border-radius: 60px;
+    transform: translate(140px,-390px);
+
+}
+.Panel {
+    background-color: #5d589c;
+    min-height: 10vh; 
+    border-radius: 20px;
+    width: 1150px;
+    height: 175px;
+    transform: translate(140px,-240px);
+}
+
+.center3{
+    display: flex;
+    gap: 10em; 
+    padding-top: 0.1%;
+}
+
+.letts6{
+    font-size: 1.5vw;
+    color: #b5ceec;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    padding-left: 22%;
+}
